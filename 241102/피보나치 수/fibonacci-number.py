@@ -1,10 +1,8 @@
-def fibonacci_recursive(n):
-    if n <= 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
+def fibonacci_iterative(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+    return a
 
 n = int(input(""))
-print(fibonacci_recursive(n))
+print(fibonacci_iterative(n))
