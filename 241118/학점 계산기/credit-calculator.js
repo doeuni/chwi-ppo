@@ -24,7 +24,7 @@ console.log(sum.toFixed(1))
 
 if ((sum.toFixed(1))>4.0) {
     console.log("Perfect")
-} else if ((sum.toFixed(1))>3.0){
+} else if ((sum.toFixed(1))>=3.0){
     console.log("Good")
 } else if ((sum.toFixed(1))< 3.0) {
     console.log("Poor")
