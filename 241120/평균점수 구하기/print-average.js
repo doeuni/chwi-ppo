@@ -6,4 +6,4 @@ let sum = 0
 tmp.forEach(num => sum += num )
 // console.log(sum)
 let avg2 = sum / 8
-console.log(avg2)
+console.log(avg2.toFixed(1))
